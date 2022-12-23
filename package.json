@@ -1,0 +1,24 @@
+{
+  "name": "express-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhonatan0912/EXPRESS-COURSE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhonatan0912/EXPRESS-COURSE/issues"
+  },
+  "homepage": "https://github.com/jhonatan0912/EXPRESS-COURSE#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
