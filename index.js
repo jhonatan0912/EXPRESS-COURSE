@@ -2,7 +2,13 @@ import express from "express";
 
 const app = express();
 
+app.get('/products', (req, res) => {
+  res.send("Lista de productos");
+})
 
+app.post('/products', (req, res) => {
+  res.send("Lista de productos");
+})
 
 app.listen(3000)
 
