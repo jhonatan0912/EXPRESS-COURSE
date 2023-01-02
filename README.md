@@ -49,6 +49,11 @@ res.redirect('/go-there')
 
 ```
 
+## Routing
+- We pass a param and it converts it in uppercase
+```js 
+app.get('/uppercase/:theValue', (req, res) => res.send(req.params.theValue.toUpperCase()))
+```
 
 
  

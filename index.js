@@ -23,6 +23,11 @@ app.get('/goback', (req, res) => {
   res.redirect('back')
 })
 
+app.get('/uppercase/:theValue', (req, res) => {
+  res.send(req.params.theValue.toUpperCase()
+  )
+})
+
 
 
 // express methods
